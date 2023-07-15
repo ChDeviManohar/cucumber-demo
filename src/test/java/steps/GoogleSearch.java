@@ -62,6 +62,8 @@ public class GoogleSearch {
 	public void user_enter_into_search_result() {
 		System.out.println("Step: user enter into search result");
 		driver.getPageSource().contains("Online Courses");
+		driver.close();
+		driver.quit();
 	}
 
 }
